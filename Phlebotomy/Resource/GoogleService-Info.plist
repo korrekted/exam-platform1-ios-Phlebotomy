@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>884310559554-1sda1eljv8doooiu3cf1pt4i1j3sf2u3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.884310559554-1sda1eljv8doooiu3cf1pt4i1j3sf2u3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBk7Xvp105OuVHfyq373qvE7elQJb-rQpo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>884310559554</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>exam.phlebotomy</string>
+	<key>PROJECT_ID</key>
+	<string>phlebotomy-exam</string>
+	<key>STORAGE_BUCKET</key>
+	<string>phlebotomy-exam.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:884310559554:ios:a057377979dfc31ee756db</string>
+</dict>
+</plist>
