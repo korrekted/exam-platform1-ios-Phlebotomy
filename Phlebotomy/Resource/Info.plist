@@ -39,6 +39,8 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
 	<string>1286880201787536</string>
+	<key>FacebookClientToken</key>
+	<string>7c1ce362455041cb3663acc9379727b6</string>
 	<key>FacebookDisplayName</key>
 	<string>Phlebotomy Exam</string>
 	<key>LSRequiresIPhoneOS</key>
