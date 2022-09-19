@@ -334,7 +334,6 @@
 		DE06717A28A26B9A00BF8238 /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06703128A26B9900BF8238 /* OImproveCell.swift */; };
 		DE06717B28A26B9A00BF8238 /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06703328A26B9900BF8238 /* ReferencesTableCell.swift */; };
 		DE06717C28A26B9A00BF8238 /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06703428A26B9900BF8238 /* ReferencesTableView.swift */; };
-		DE06717D28A26B9A00BF8238 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE06703628A26B9900BF8238 /* Onboarding.Chart.json */; };
 		DE06717E28A26B9A00BF8238 /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06703728A26B9900BF8238 /* OWhenStudyCell.swift */; };
 		DE06717F28A26B9A00BF8238 /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06703928A26B9900BF8238 /* WelcomeSlide1View.swift */; };
 		DE06718028A26B9A00BF8238 /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06703A28A26B9900BF8238 /* WelcomeSlideIndicatorView.swift */; };
@@ -363,6 +362,7 @@
 		DE06719728A26BAB00BF8238 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE066EF228A26B9900BF8238 /* Stats.swift */; };
 		DE06719828A26BB000BF8238 /* StatsShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE066F0528A26B9900BF8238 /* StatsShareManager.swift */; };
 		DE06719A28A26BDB00BF8238 /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE06719928A26BD300BF8238 /* SF-Pro-Rounded-Black.otf */; };
+		DE4FA14A28D82CE900085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA14928D82CE900085483 /* Onboarding.Chart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -723,7 +723,6 @@
 		DE06703128A26B9900BF8238 /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DE06703328A26B9900BF8238 /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DE06703428A26B9900BF8238 /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DE06703628A26B9900BF8238 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE06703728A26B9900BF8238 /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DE06703928A26B9900BF8238 /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DE06703A28A26B9900BF8238 /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -748,6 +747,7 @@
 		DE06704D28A26B9900BF8238 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DE06704E28A26B9900BF8238 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DE06719928A26BD300BF8238 /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Black.otf"; sourceTree = "<group>"; };
+		DE4FA14928D82CE900085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		EC7FCEBE910D51F9C595E16D /* Pods_Phlebotomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phlebotomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -2273,7 +2273,7 @@
 		DE06703528A26B9900BF8238 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE06703628A26B9900BF8238 /* Onboarding.Chart.json */,
+				DE4FA14928D82CE900085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2373,12 +2373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE06719A28A26BDB00BF8238 /* SF-Pro-Rounded-Black.otf in Resources */,
-				DE06717D28A26B9A00BF8238 /* Onboarding.Chart.json in Resources */,
 				96235052272B263300619CE2 /* GoogleService-Info.plist in Resources */,
 				9623502C272B23C300619CE2 /* Localizable.strings in Resources */,
 				96235028272B23B800619CE2 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				96235027272B23B800619CE2 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				9623502E272B23CA00619CE2 /* LaunchScreen.storyboard in Resources */,
+				DE4FA14A28D82CE900085483 /* Onboarding.Chart.json in Resources */,
 				96234DE5272B210600619CE2 /* Assets.xcassets in Resources */,
 				96235029272B23B800619CE2 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2949,7 +2949,7 @@
 				CODE_SIGN_ENTITLEMENTS = Phlebotomy/Phlebotomy.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/Phlebotomy/Resource/Info.plist";
@@ -2958,7 +2958,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.phlebotomy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Phlebotomy Prod";
@@ -2978,7 +2978,7 @@
 				CODE_SIGN_ENTITLEMENTS = Phlebotomy/Phlebotomy.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/Phlebotomy/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -2986,7 +2986,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.phlebotomy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Phlebotomy Prod";
@@ -3004,7 +3004,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3013,7 +3013,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.phlebotomy.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Phlebotomy Widget Prod";
@@ -3031,7 +3031,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3040,7 +3040,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.phlebotomy.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Phlebotomy Widget Prod";
